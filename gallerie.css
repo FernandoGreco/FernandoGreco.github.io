@@ -11,6 +11,11 @@ div.gallerie-loading {
 	z-index: 10000;
 	background: url("loading.gif");
 }
+
+ a:hover img{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    color: gray;
+}
 /* Image Index and Title Text */
 .gallerie-text {
 	max-width: 60%;
