@@ -15,6 +15,12 @@ div.gallerie-loading {
  a:hover img{
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
     color: gray;
+-webkit-transition: 0.3s ease-in; // navegadores webkit, como Safari e Chrome
+-moz-transition: 0.3s ease-in; // Firefox
+-o-transition: 0.3s ease-in; // Opera
+-moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 /* Image Index and Title Text */
 .gallerie-text {
@@ -275,3 +281,4 @@ float: left; list-style: none; margin: 0; padding: 10px; width: 360px; }
 ul.thumb li { margin: 0; padding: 5px; float: left; position: relative; width: 110px; height: 110px; }
 ul.thumb li img { width: 100px; height: 100px; -ms-interpolation-mode: bicubic; border: 1px solid #ddd; padding: 5px; background: #f0f0f0; position: absolute; left: 0; top: 0; }
 ul.thumb li img.hover { background:url(http://4.bp.blogspot.com/_p4Te9Li52fs/So9a2fSh2jI/AAAAAAAAAAc/VX0mAW1oYHc/thumb_bg.png) no-repeat center center; border: none; }
+
