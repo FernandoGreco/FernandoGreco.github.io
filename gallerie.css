@@ -216,6 +216,7 @@ a:link
 .menu{
 	
 	box-shadow: 0px 5px 5px rgba(0,0,0,1);
+	
 }
 
 ul.menu {
@@ -252,6 +253,9 @@ li a.menu {
 
 li.menu a:hover {
     background-color: red;
+  -webkit-transition: 0.3s ease-in;
+-moz-transition: 0.3s ease-in;
+-o-transition: 0.3s ease-in
 }
 
 #imagens img {
